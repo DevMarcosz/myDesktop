@@ -1,0 +1,95 @@
+.barra-tarefas{
+	width: 100%;
+	list-style: none;
+	clear: both;
+	
+}
+.barra-tarefas li{
+	position: relative;
+	float: left;
+	list-style: none;
+	padding: 2px;
+	margin: 2px;
+	margin-left: 10px;
+	
+}
+
+.barra-tarefas li  ul{
+	position:absolute;
+	bottom:25px;
+	left:0;
+	display:none;
+}
+.tBackground:hover{
+	width: 90px;
+	height: 90px;
+	border: #0098c7 solid 1px;
+	background-color: rgba(11, 192, 224, 0.466) ;
+}
+
+.item{
+	display: block;
+	margin: 10px;
+	width: 50px;
+	height: 80px;
+}
+
+.item a{
+
+	color: white;
+	list-style: none;
+	text-decoration:none;
+}
+
+
+#pesquisar	{
+	width: 200px;
+	padding-top: 10px;
+	border: none;
+}
+
+.barra-tarefas li:hover ul, .barra-tarefas li.over ul{display: block;}
+
+.barra-tarefas li ul li{
+	width: 150px;
+	display: block;
+}
+body{
+	
+	background-color: #fff;
+	height: 100%;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.background{
+
+	height: 100%;
+	background-image: url(../image/background.png);
+	background-attachment: fixed;
+	background-size: 100%;
+
+}
+
+#lixeira-explorer{
+	text-align: center;
+	background-image: url(../image/exLixeira.png);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 800px;
+	height: 800px;
+
+}
+
+footer{
+
+	position: absolute;
+	bottom: 0;
+	background:#181818;
+}
